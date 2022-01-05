@@ -8,35 +8,19 @@ body{
     font-family: sans-serif; 
     
 }
-.init{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   align-content: center;
-   
-}
 .language{
-    background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 15px;
-    color: white;
-    width: 300px; 
-    height: 150px;   
-    text-align: center;
-    margin-top: 350px; 
-    
-      
-}
-.language h2{
-    margin-top: 30px;
+    display: flex;
+    align-items: center;
     
 }
 .language img{
-    width: 50px;
-    margin: 10px;
-    transition: 0.3s;
+    width: 25px;
+    margin-right: 10px;
+    
 }
-.language img:hover{
-    transform: scale(1.2);
+.language p{
+    margin-right: 10px;
+    color: white;
 }
 .menu{
     position: fixed;
@@ -88,7 +72,7 @@ body{
 .mid{
     color: white;
     margin-left: 400px;
-    margin-top: 500px;
+    margin-top: 450px;
     height: 100vh;
     
     
@@ -271,6 +255,13 @@ span:hover{
     text-decoration: none;
     text-transform: none;
 }
+ 
+
+.copy p{
+    color: white;
+    text-align: center
+    ;
+}
 
 @media (max-width: 1450px){
     
@@ -336,6 +327,14 @@ span:hover{
 @media (max-width: 375px){
     .menu{
         justify-content: center;
+    }
+    .language img{
+        width: 15px;
+        
+        
+    }
+    .language p{
+        font-size: 12px;
     }
 }
 

@@ -11,18 +11,194 @@
     <link rel="stylesheet" href="style.css">
     <title>Rodrigo DeV</title>
 </head>
-
-<body>
-    <div class="init">
+<header id="header">
+    .
+    <div class="menu" id="menu">
+        <div class="logo">
+            <h3><span>RB</span> DeV</h3>
+        </div>
+        <nav>
+            <ul>    
+                <a href="#header">
+                    <li>Home</li>
+                </a>
+                <a href="#habilidades">
+                    <li>Skills</li>
+                </a>
+                <a href="#projetos">
+                    <li>Projects</li>
+                </a>
+                <a href="#footer">
+                    <li>Contacts</li>
+                </a>
+            </ul>
+        </nav>
         <div class="language">
-            <h2>Select your language</h2>
+            <p>Language:</p>
             <ul>
                 <a href="./pt.html"><img id="flag" src="./img/flagofBrazil_6577.png" alt=""></a>
-                <a href="./eng.html"><img src="./img/UnitedStatesflag_6361.png" alt=""></a>
+                <a href="./index.html"><img src="./img/UnitedStatesflag_6361.png" alt=""></a>
                 <a href="./esp.html"><img src="./img/FlagofSpain_6390.png" alt=""></a>
             </ul>
         </div>
     </div>
-</body>
+    
+</header>
+<body>
+    <section class="mid" id="mid">
+        <h1><span>R</span>odrigo <span>B</span>ologna</h1>
+        <h2>Front-end Developer</h2>
+    </section>
+    <section class="habilidades" id="habilidades">
+        <h2>My Skill<span>s</span></h2>
+        <div class="container">
+            <div class="card">
+                <img src="./img/5352-html5_102567.png" alt="">
+                <div class="content">
+                    <p>HTML5 is a markup language for the web and is a key Internet technology. This new version brings
+                        important changes regarding the role of HTML in the web world, through new features such as
+                        semantics and accessibility.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/5351-css3_102605.png" alt="">
+                <div class="content">
+                    <p>
+                        CSS3 is the third version of the famous Cascading Style Sheets, which defines styles for a web
+                        project. With transition effects, image, background image and others, you can create unique styles
+                        for your web projects, changing different design aspects in the page layout.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/javascript_icon_130900.png" alt="">
+                <div class="content">
+                    <p>
+                        JavaScript is a structured, interpreted programming language. Along with HTML and CSS, the
+                        JavaScript is one of the three main technologies on the web. JavaScript enables interactive pages
+                        and,
+                        therefore it is an essential part of web applications..</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/react_original_logo_icon_146374.png" alt="">
+                <div class="content">
+                    <p>
+                        React is an open source JavaScript library focused on creating user interfaces
+                        (frontend) on web pages. It is maintained by Facebook, Instagram, other companies and a community of
+                        individual developers</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/file_type_git_icon_130581.png" alt="">
+                <div class="content">
+                    <p>Git is a distributed version control system, mainly used in the development of
+                        software, but can be used to log the edit history of any file type.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/github_git_icon_145985.png" alt="">
+                <div class="content">
+                    <p>
+                        GitHub is a source code and file hosting platform with version control using Git. It allows
+                        programmers, utilities or any registered user on the platform to contribute to private and/or Open
+                        Source projects from anywhere in the world. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="habilidades" id="projetos">
+        <h2>Project<span>s</span></h2>
+        <div class="container">
+            <div class="card">
+                
+                <a href="https://cadastrafacil2.netlify.app/" target="_blank"><img src="./img/cadastra_facil.png" alt=""></a>
+                <div class="content">
+                    <p>Project CRUD</p>
+                
+                </div>
+            </div>
+            <div class="card">
+                
+                <div class="content">
+                    <p>under development</p>
+                </div>
+            </div>
+            <div class="card">
+                
+                <div class="content">
+                    <p>under development</p>
+                </div>
+            </div>
+            <div class="card">
+                
+                <div class="content">
+                    <p>under development</p>
+                </div>
+            </div>
+            <div class="card">
+               
+                <div class="content">
+                    <p>under development</p>
+                </div>
+            </div>
+            <div class="card">
+                
+                <div class="content">
+                    <p>under development</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="habilidades" id="contatos">
+        <h2>Contact<span>s</span></h2>
+        <div class="container">
+            <div class="card" id="form">    
+                <div class="content" >
+                    <form action="https://formsubmit.co/rodrigo.bologna3@gmail.com" method="POST">
+                        <input type="hidden" name="_autoresponse" value="Recebi sua mensagem, obrigado pelo contato e logo responderei!!">
 
+                                           
+                        <label>Name</label>
+                        <input type="text" name="name">
+
+                        <label>Phone</label>
+                        <input type="text" name="phone" id="phone"  maxlength="15" minlength="11" onkeypress="mask(this, mphone);" onblur="mask(this, mphone);">
+                        
+                        <label>Email</label>
+                        <input type="email" name="email" id="mail" >
+                       
+                        <label>Message</label>
+                        <textarea name="message" id="mensagem" maxlength="150" rows="6" cols="20"></textarea>
+                       
+                        <button type="submit" onclick="validar()">Send</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card" id="email">                  
+                <div class="content">
+                    
+                    <h3>Email <i class="fa fa-envelope"></i></h3></br>
+                    <a href="mailto:rodrigo.bologna3@gmail.com"><h4>rodrigo.bologna3@gmail.com</h4></a>
+                </div>
+            </div>
+            <div class="card" id="tel">                  
+                <div class="content">                    
+                    <h3>Phone  <i class="fa fa-phone-square"></i></h3></br>
+                    <a href="https://web.whatsapp.com/send?phone=5511940281214" target="_blank"><h4>+55 (11) 94028-1214</h4></a>
+                   
+                </div>
+            </div>
+    
+    
+        </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="copy">
+            <p>Developed by RB DeV. © 2022. All rights reserved.</p>
+        </div>
+    </footer>
+<script src="./index.js"></script>
+</body>
 </html>
