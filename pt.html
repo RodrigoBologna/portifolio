@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@500&family=Montserrat:wght@200;300&family=Play&family=Shizuru&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Rodrigo DeV</title>
+</head>
+<header id="header">
+    .
+    <div class="menu" id="menu">
+        <div class="logo">
+            <h3><span>RB</span> DeV</h3>
+        </div>
+        <nav>
+            <ul>    
+                <a href="#header">
+                    <li>Home</li>
+                </a>
+                <a href="#habilidades">
+                    <li>Habilidades</li>
+                </a>
+                <a href="#projetos">
+                    <li>Projetos</li>
+                </a>
+                <a href="#contatos">
+                    <li>Contatos</li>
+                </a>
+            </ul>
+        </nav>
+    </div>
+    
+</header>
+<body>
+    <section class="mid" id="mid">
+        <h1>Rodrigo Bologna</h1>
+        <h2>Front-end Developer</h2>
+    </section>
+    <section class="habilidades" id="habilidades">
+        <h2>Habilidade<span>s</span></h2>
+        <div class="container">
+            <div class="card">
+                <img src="./img/5352-html5_102567.png" alt="">
+                <div class="content">
+                    <p>HTML5 é uma linguagem de marcação para a Web e é uma tecnologia chave da Internet. Esta nova versão traz consigo importantes mudanças quanto ao papel do HTML no           mundo da Web, através de novas funcionalidades como semântica e acessibilidade.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/5351-css3_102605.png" alt="">
+                <div class="content">
+                    <p>CSS3 é a terceira versão das famosas Cascading Style Sheets, pela qual se define estilos para um                       projeto web. Com efeitos de transição, imagem, imagem de fundo/background e outros, pode-se criar                     estilos únicos para seus projetos web, alterando diversos aspectos de design no layout da página.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/javascript_icon_130900.png" alt="">
+                <div class="content">
+                    <p>JavaScript é uma linguagem de programação interpretada estruturada. Juntamente com HTML e CSS, o
+                        JavaScript é uma das três principais tecnologias da Web. JavaScript permite páginas interativas e,
+                        portanto, é uma parte essencial dos aplicativos da web.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/react_original_logo_icon_146374.png" alt="">
+                <div class="content">
+                    <p>O React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário
+                        (frontend) em páginas web. É mantido pelo Facebook, Instagram, outras empresas e uma comunidade de
+                        desenvolvedores individuais</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/file_type_git_icon_130581.png" alt="">
+                <div class="content">
+                    <p>Git é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de
+                        software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/github_git_icon_145985.png" alt="">
+                <div class="content">
+                    <p>GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git.Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="habilidades" id="projetos">
+        <h2>Projeto<span>s</span></h2>
+        <div class="container">
+            <div class="card">
+                
+                <a href="https://cadastrafacil2.netlify.app/" target="_blank"><img src="./img/cadastra_facil.png" alt=""></a>
+                <div class="content">
+                    <p>Projeto CRUD</p>
+                
+                </div>
+            </div>
+            <div class="card">
+                
+                <div class="content">
+                    <p>Em desenvolvimento</p>
+                </div>
+            </div>
+            <div class="card">
+                
+                <div class="content">
+                    <p>Em desenvolvimento</p>
+                </div>
+            </div>
+            <div class="card">
+                
+                <div class="content">
+                    <p>Em desenvolvimento</p>
+                </div>
+            </div>
+            <div class="card">
+               
+                <div class="content">
+                    <p>Em desenvolvimento</p>
+                </div>
+            </div>
+            <div class="card">
+                
+                <div class="content">
+                    <p>Em desenvolvimento</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="habilidades" id="contatos">
+        <h2>Contato<span>s</span></h2>
+        <div class="container">
+            <div class="card" id="form">    
+                <div class="content" >
+                    <form action="https://formsubmit.co/rodrigo.bologna3@gmail.com" method="POST">
+                        <input type="hidden" name="_autoresponse" value="Recebi sua mensagem, obrigado pelo contato e logo responderei!!">
+
+                                           
+                        <label>Nome</label>
+                        <input type="text" name="name">
+
+                        <label>Telefone</label>
+                        <input type="text" name="phone" id="phone"  maxlength="15" minlength="11" onkeypress="mask(this, mphone);" onblur="mask(this, mphone);">
+                        
+                        <label>Email</label>
+                        <input type="email" name="email" id="mail" >
+                       
+                        <label>Mensagem</label>
+                        <textarea name="message" id="mensagem" maxlength="150" rows="6" cols="20"></textarea>
+                       
+                        <button type="submit" onclick="validar()">Enviar</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card" id="email">                  
+                <div class="content">
+                    
+                    <h3>Email <i class="fa fa-envelope"></i></h3></br>
+                    <a href="mailto:rodrigo.bologna3@gmail.com"><h4>rodrigo.bologna3@gmail.com</h4></a>
+                </div>
+            </div>
+            <div class="card" id="tel">                  
+                <div class="content">                    
+                    <h3>Telefone  <i class="fa fa-phone-square"></i></h3></br>
+                    <a href="https://web.whatsapp.com/send?phone=5511940281214" target="_blank"><h4>(11) 94028-1214</h4></a>
+                   
+                </div>
+            </div>
+    
+    
+        </div>
+        </div>
+    </section>
+<script src="./index.js"></script>
+</body>
+</html>

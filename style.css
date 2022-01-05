@@ -7,8 +7,37 @@ body{
     background-image: linear-gradient( to right,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% );
     font-family: sans-serif; 
     
-} 
-
+}
+.init{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   
+}
+.language{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    color: white;
+    width: 300px; 
+    height: 150px;   
+    text-align: center;
+    margin-top: 350px; 
+    
+      
+}
+.language h2{
+    margin-top: 30px;
+    
+}
+.language img{
+    width: 50px;
+    margin: 10px;
+    transition: 0.3s;
+}
+.language img:hover{
+    transform: scale(1.2);
+}
 .menu{
     position: fixed;
     width: 100vw;
@@ -123,7 +152,7 @@ body{
     font-size: 50px;
     font-family: 'Montserrat', sans-serif;  
 }
-img{
+.habilidades img{
     width: 80px;
     margin-top: 110px;
     transition: 0.3s;
@@ -163,6 +192,28 @@ span:hover{
     text-decoration: underline;
     cursor: pointer;
     
+}
+#projetos img{
+    width: 150px; 
+    margin-top: 40px;
+    transition: 0.3s;
+
+}
+#projetos .card{
+    width: 200px;
+    height: 200px;
+}
+#projetos .content{
+    opacity: 1;
+}
+#projetos p{
+    margin-top: 10px;
+    font-size: 20px;
+    
+}
+#projetos a{
+    color: white;
+    font-size: 20px;
 }
 #contatos{
     flex-direction: column;
